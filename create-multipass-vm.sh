@@ -3,6 +3,7 @@
 # Function to extract numeric value from input
 extract_num(){
     local value="$1"
+    #this function needs to be explained for easy understandin of the code
     echo "$value" | sed 's/[^0-9]*//g'
 }
 
